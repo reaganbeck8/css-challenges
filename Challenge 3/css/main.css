@@ -1,0 +1,24 @@
+/* Styling of Cool Box*/
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    text-align: center;
+    font-size: 1.125rem; 
+    background-color: rgb(95, 255, 2);
+    height: 30px;
+    line-height: 1.5;
+    color: rgb(95, 255, 2);
+    text-shadow: 2px 2px 2px black;
+    border-radius: 3px;
+    border: 1px solid  rgb(71, 190, 1);
+    background-image: linear-gradient(to top left, rgba(0,0,0,0.2), rgba(0,0,0,0.2) 30%, rgba(0,0,0,0));
+    box-shadow: /* inset 1 for top left */
+
+                inset 2px 2px 3px rgba(255,255,255,0.6),
+
+                 /* inset 2 for bottom right */
+
+                inset -2px -2px 3px rgba(0,0,0,0.6), 2px 2px 5px black;
+}
+/* 1 Rem = 16px --> 2px = 1.125rem which is an 8th of 1 Rem */
+

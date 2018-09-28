@@ -1,0 +1,20 @@
+/* container styles starts here */
+
+.container {
+    font-family: 'K2D', sans-serif;
+    display: block;
+    width: 40%;
+    font-size: 1em;
+
+}
+/* container styles starts here */
+
+/* wrapper styling starts here */
+.wrapper {
+    font-family: 'Srisakdi', cursive;
+    display: block;
+    width: 40%;
+    font-size: 1em;
+
+}
+/* wrapper styling ends here */
